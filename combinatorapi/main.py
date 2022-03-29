@@ -5,10 +5,15 @@ import helper
 
 app = FastAPI()
 
+@app.get("/")
+async def read_root():
+    return {"Hello": "World"}
+
 
 @app.get("/article/")
 async def get_article() -> Article:
     return helper.article.get_top_article()
+
 
 @app.get("/articles/{count}/")
 async def get_articles(

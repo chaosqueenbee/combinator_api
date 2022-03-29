@@ -1,0 +1,1 @@
+{"id":"a7d68bff-1507-4a56-939e-b0494e6d8e99","space":20502,"runtime":"python3.9","name":"combinatorapi","path":"urmkmk","project":"b0dys8z4","account":"144798365827","region":"us-west-1","deps":["fastapi","uvicorn","requests","bs4"],"envs":null,"public":true,"log_level":"debug","cron":""}
