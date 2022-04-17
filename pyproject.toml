@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["amarokkin <jasminesingh.2011@gmail.com>"]
 
+[tool.poetry.scripts]
+  start = "combinatorapi.main:start"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 fastapi = "^0.75.1"

@@ -20,3 +20,7 @@ async def get_articles(
     count: int
 ):
     return helper.article.get_top_articles(count=count)
+
+def start():
+  """Launched with `poetry run start` at root level"""
+  uvicorn.run("combinatorapi.main:app", host="0.0.0.0", port=8000, reload=True)
