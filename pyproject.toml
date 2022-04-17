@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "combinator_api"
+name = "combinatorapi"
 version = "0.1.0"
-description = ""
+description = "An API created using FastAPI that is hosted using Deta. Serves the top posts of Hacker News (YCombinator)."
 authors = ["amarokkin <jasminesingh.2011@gmail.com>"]
 
 [tool.poetry.scripts]
